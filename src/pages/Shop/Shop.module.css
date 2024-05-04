@@ -1,0 +1,26 @@
+.container {
+    margin-left: 0;
+}
+
+.inputContainer{
+    width: 500px;
+    display: flex;
+}
+
+.input{
+    width: 300px;
+    margin-top: 10px;
+}
+
+.mark{
+    margin-top: 12px;
+    margin-left: 5px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.inputBtn{
+    margin-top: 10px;
+    width: 300px;
+}

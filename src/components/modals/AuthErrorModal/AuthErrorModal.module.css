@@ -1,0 +1,49 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+.wrapper {
+    color: FFFFFF;
+    height: 500px;
+    width: 500px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainTitle {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+}
+
+.buttonContainer {
+    margin-top: 200px;
+}
+
+.cancelButton {
+    background-color: white;
+    border: #000 solid 1px;
+    width: 170px;
+    height: 45px;
+}
+
+.confirmButton {
+    background-color: #000;
+    color: white;
+    width: 170px;
+    height: 45px;
+    margin-left: 20px;
+}

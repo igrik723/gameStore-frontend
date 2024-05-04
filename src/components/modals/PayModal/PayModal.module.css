@@ -1,0 +1,91 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.wrapper{
+    color: FFFFFF;
+    height: 420px;
+    width: 500px;   
+}
+
+.container{
+    padding: 55px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font: linear-gradient(45deg, #a1ffce, #f9ffd1);
+    font-size: 70px;
+    font-weight: 700;
+    margin-left: 30px;
+    font-family: sans-serif;
+        /* линейный градиент, слева на право, 3 цвета */
+    background-image: linear-gradient(to right, #AAD412 0%, #11D419 100%);
+        /* обрезаем фон по тексту */
+    -webkit-background-clip: text;
+        /* меняет цвет текста заголовка на прозрачный что бы можно было увидеть градиент*/
+    -webkit-text-fill-color: transparent;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+    color: #2DC03C;
+}
+
+.form{
+    margin: 0 20px 10px 50px;
+    width: 400px;
+    
+}
+
+.formWrapper{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.dateForm{
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    width: 80px;
+    height: 30px;
+}
+
+.cvcForm{
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    margin-left: 35px;
+    width: 60px;
+    height: 30px;
+}
+
+.textWrapper{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 320px;
+    display: flex;
+}
+
+.text{
+    margin-left: 10px;
+}
+
+.btn{
+    border: 0;
+    background-color: #2DC03C;
+    color: #FFFFFF;
+    height: 45px;
+    width: 280px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 20px;
+}

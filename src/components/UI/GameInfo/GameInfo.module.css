@@ -1,0 +1,28 @@
+.container{
+    margin-left: 10px;
+}
+
+.image{
+    width: 100%;
+    height: 400px;
+}
+
+.gameWrapper{
+    display: flex;
+}
+
+.gameInfo{
+    margin: 0 5px 0 5px;
+}
+
+.type{
+    margin-left: 5px;
+}
+
+.publisher{
+    margin-left: 5px;
+}
+
+.code{
+    font-size: 50px;
+}
